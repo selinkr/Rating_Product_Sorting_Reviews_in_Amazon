@@ -78,8 +78,12 @@ def score_up_down_diff(helpful_yes, helpful_no): # Oran bilgisini kaçırdı.
     return helpful_yes - helpful_no
 
 
-def score_average_rating(helpful_yes, helpful_no): # Frekans yüksekliğini göz önünde bulundurmadı.
+def score_average_rating(helpful_yes, helpful_no): 
     """
+    -It is done taking into account the ratios.
+    -Deficiency in here: Frequency was not taken into account.
+
+
 
     Parameters
     ----------
